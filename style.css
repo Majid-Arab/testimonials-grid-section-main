@@ -1,0 +1,20 @@
+.container {
+  padding: 20px;
+  background-color: #733fc8;
+  color: #fff;
+}
+
+.img {
+  border-radius: 100%;
+  border: 4px solid #A574E9;
+}
+
+.imgHead {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.para {
+  text-decoration: #b69cdb;
+}
