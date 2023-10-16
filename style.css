@@ -1,7 +1,27 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 .container {
   padding: 20px;
   background-color: #733fc8;
   color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.quotation {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  max-width: 40%;
+  width: 40%;
+  z-index: 0;
 }
 
 .img {
@@ -15,6 +35,6 @@
   gap: 30px;
 }
 
-.para {
+p {
   text-decoration: #b69cdb;
 }
