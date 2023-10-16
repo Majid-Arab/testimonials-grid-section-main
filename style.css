@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Barlow Semi Condensed', Courier;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
