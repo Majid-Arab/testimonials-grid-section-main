@@ -5,20 +5,11 @@
 }
 
 body{
-  font-family: 'Barlow Semi Condensed', Courier;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  font-family: 'Barlow Semi Condensed';
 }
 
 .container {
-  padding: 20px;
+  padding: 40px;
   background-color: #733fc8;
   color: #fff;
   border-radius: 10px;
@@ -40,12 +31,22 @@ body{
   border: 4px solid #A574E9;
 }
 
-.imgHead {
+.AvatarHeader {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
+.imgSide{
+
+}
+.imgSide h4{
+  margin: 0; 
+  margin-bottom: 5px;
+}
+
 p {
-  text-decoration: #b69cdb;
+  color: #b69cdb;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
