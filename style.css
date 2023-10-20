@@ -41,7 +41,10 @@ h1 {
   gap: 30px;
 }
 
-.imgSide {
+.quotation {
+  max-width: 50%;
+  width: 50%;
+  border: 2px solid red;
 }
 .imgSide h4 {
   margin: 0;
