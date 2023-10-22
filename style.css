@@ -43,8 +43,7 @@ h1 {
 
 .quotation {
   max-width: 50%;
-  width: 50%;
-  border: 2px solid red;
+  width: 50%; 
 }
 .imgSide h4 {
   margin: 0;
