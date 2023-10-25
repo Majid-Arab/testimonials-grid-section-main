@@ -9,6 +9,11 @@ body {
 }
 
 .container {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 2;
+}
+.box {
   padding: 40px;
   background-color: #733fc8;
   color: #fff;
@@ -17,13 +22,18 @@ body {
   z-index: 0;
 }
 
-.quotation {
+.imgBox {
+  max-width: 40%;
+  height: 500px;
   position: absolute;
   top: 0;
   right: 30px;
   z-index: -1;
-  max-width: 40%;
-  width: 40%;
+  background-image: url("./images/bg-pattern-quotation.svg");
+}
+
+.quotation {
+  /* height: px; */
 }
 
 h1 {
@@ -43,7 +53,7 @@ h1 {
 
 .quotation {
   max-width: 50%;
-  width: 50%; 
+  width: 50%;
 }
 .imgSide h4 {
   margin: 0;
