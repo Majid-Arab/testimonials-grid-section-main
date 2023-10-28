@@ -38,7 +38,7 @@ body {
   grid-template-areas:
     "box1 box1 box1 box1 box2 box5"
     "box3 box4 box4 box4 box4 box5";
-  gap: 10px;
+  gap: 25px;
   width: 70%;
   height: auto; /*Full viewport height*/
   align-items: center; /* Center items vertically */
@@ -69,18 +69,16 @@ body {
 .box{
   padding: 20px;
   font-size: 10px;
-  color: #80878F;
-  /* width: 30%; */
   color: #fff;
+  height: 100%;
   border-radius: 10px;
-  position: relative;
-  z-index: 0;
 }
 
 .box1 {
   position: relative;
   background-color: #733fc8;
   color: #fff;
+  z-index: 0;
 }
 
 .box2 {
@@ -109,7 +107,5 @@ body {
 }
 
 p {
-  /* color: #b69cdb; */
-  /* font-size: 16px; */
   letter-spacing: 1px;
 }
