@@ -129,16 +129,16 @@ p {
 @media only screen and (max-width: 800px) {
   .container {
     display: grid;
-    grid-template-areas: /* Modify grid for smaller screens */
+    grid-template-areas:
       "box1 box1 box1 box2"
-      "box3 box3 box4 box4"
-      "box5 box5 box5 box5"; /* Single box in the third row */
+      "box3 box4 box4 box4"
+      "box5 box5 box5 box5";
   }
 
-  /* Adjust the width of boxes to occupy 100% width in the first and second columns */
-  .box {
-    /* width: calc(50% - 40pxed ); Subtract the margins from the width */
-  }
+  /* .box {
+    margin: 20px;
+    height: auto;
+  } */
 }
 @media only screen and (max-width: 600px) {
   .container {
