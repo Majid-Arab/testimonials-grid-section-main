@@ -7,6 +7,7 @@
 body {
   font-family: "Barlow Semi Condensed";
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #edf2f8;
@@ -53,18 +54,16 @@ body {
   grid-template-areas:
     "box1 box1 box1 box1 box2 box5"
     "box3 box4 box4 box4 box4 box5";
-  /* grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr; */
   gap: 25px;
   width: 90%;
   height: 600px;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .quotation {
   max-width: 40%;
-  /* height: 500px; */
   position: absolute;
   top: 0;
   right: 80px;
@@ -75,14 +74,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* gap: 30px; */
 }
-
-/* .AvatarHeader img{
-  border-radius: 100%;
-  width: 10%;
-
-} */
 
 .imgBox {
   border-radius: 100%;
@@ -111,6 +103,7 @@ h4 {
   font-size: 14px;
   font-weight: normal;
 }
+
 span {
   font-size: 14px;
   color: #b0b3b8;
@@ -120,10 +113,18 @@ h3 {
   font-size: 20px;
   font-weight: 500;
 }
+
 p {
   letter-spacing: 1px;
   font-size: 14px;
   color: #b0b3b8;
+}
+
+footer {
+  background-color: #18202d; /* You can change the background color as needed */
+  color: #fff; /* You can change the text color as needed */
+  padding: 10px; /* Add padding to style the footer */
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -134,12 +135,8 @@ p {
       "box3 box4 box4 box4"
       "box5 box5 box5 box5";
   }
-
-  /* .box {
-    margin: 20px;
-    height: auto;
-  } */
 }
+
 @media only screen and (max-width: 600px) {
   .container {
     display: block;
