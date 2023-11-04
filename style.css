@@ -21,6 +21,9 @@ body {
   color: #fff;
   height: 100%;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .box1 {
@@ -64,7 +67,7 @@ body {
 }
 
 .quotation {
-  max-width: 40%;
+  max-width: 500px;
   position: absolute;
   top: 0;
   right: 80px;
@@ -122,10 +125,7 @@ p {
 }
 
 footer {
-  background-color: #18202d;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media only screen and (max-width: 800px) {
