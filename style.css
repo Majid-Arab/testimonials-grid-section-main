@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -59,7 +60,7 @@ body {
   height: 600px;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .quotation {
@@ -121,9 +122,9 @@ p {
 }
 
 footer {
-  background-color: #18202d; /* You can change the background color as needed */
-  color: #fff; /* You can change the text color as needed */
-  padding: 10px; /* Add padding to style the footer */
+  background-color: #18202d;
+  color: #fff;
+  padding: 10px;
   text-align: center;
 }
 
