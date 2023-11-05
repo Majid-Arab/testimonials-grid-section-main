@@ -19,7 +19,7 @@ body {
 }
 
 .box {
-  padding: 25px;
+  padding: 30px;
   font-size: 10px;
   color: #fff;
   height: 100%;
@@ -27,12 +27,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 10px;
 }
 
 .box1 {
   position: relative;
   background-color: #733fc8;
-  color: #fff;
   z-index: 0;
   grid-area: box1;
 }
@@ -52,7 +52,6 @@ body {
 }
 
 .box5 {
-  grid-row: 4 / 1;
   grid-area: box5;
 }
 
@@ -96,12 +95,12 @@ body {
   border: 2px solid #a574e9;
 }
 
-.white {
+.whiteBox {
   background-color: #fff;
   color: #4c5467;
 }
 
-.white p {
+.whiteBox p {
   color: #80878f;
 }
 
@@ -122,7 +121,8 @@ h3 {
 }
 
 p {
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
+  line-height: 20px;
   font-size: 14px;
   color: #b0b3b8;
 }
